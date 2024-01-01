@@ -3,7 +3,7 @@ import useAxios from "../hooks/useAxios"
 
 const SelectCyto = (props) => {
   const { value, setValue, label } = props;
-  const [data, loaded, error] = useAxios("http://16.170.246.100:3000/api/cryptos/getAllCryptos");
+  const [data, loaded, error] = useAxios("http://praveenspk.tech:3000/api/cryptos/getAllCryptos");
 
   if(loaded) {
     return (
