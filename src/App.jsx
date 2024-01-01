@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     if(firstAmount) {
-     axios.post("http://ec2-16-170-246-100.eu-north-1.compute.amazonaws.com:3000/api/cryptos/convertCurrency",{
+     axios.post("http://16.170.246.100:3000/api/cryptos/convertCurrency",{
       sourceCrypto:codeFromCurrency, 
       amount:firstAmount, 
       targetCurrency:codeToCurrency
