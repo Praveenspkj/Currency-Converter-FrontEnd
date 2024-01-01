@@ -1,5 +1,8 @@
 This project was bootstrapped with [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
+## clone this repository
+https://github.com/Praveenspkj/Currency-Converter-FrontEnd.git
+
 
 ## Available Scripts
 
